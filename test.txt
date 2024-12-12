@@ -4,3 +4,8 @@ testtestfinals
 
 en hoi
 
+<<<<<<< HEAD
+=======
+
+raman
+>>>>>>> d59c472065910c2f9df99b87e42a15c65247e2e3
