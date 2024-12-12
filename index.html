@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hallo wereld!</title>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #524f67;
+  color: black;
+  border: 2px solid #ebbcba;
+}
+
+.button1:hover {
+  background-color: #ebbcba;
+  color: white;
+}
+
+.button2 {
+  background-color: #524f67;
+  color: black;
+  border: 2px solid #31748f;
+}
+
+.button2:hover {
+  background-color: #31748f;
+  color: white;
+}
+</style>
+</head>
+<body style="background-color:#524f67;">
+
+    <div id="Knock knock">wat een tekst</div>
+    <h1 style="color:coral, ">Dit is een titel</h1>
+    <p>en dit is een paragraaf.</p>
+    <button class="button button1" onclick="alert('Hallo wereld!')">Rosé</button>
+    <button class="button button2" onclick="alert('bye bye world')">Pine</button>
+
+</body>
+</html>
+
+<script>
+    let mijnLogje = document.getElementById("Knock knock");
+    console.log(mijnLogje);
+</script>
